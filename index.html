@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="ll2I1dZRhcNro4fMaWjZm5Ghnkv5vEl9M_vfP8Oebzs" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4151470862832079"
+     crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LovePdf: Your ultimate free online PDF toolkit. Convert Word to PDF, Images to PDF, Merge, Split, Rotate, Add Page Numbers, Compress PDFs, and more—all client-side for maximum privacy and speed.">
+  <meta name="keywords" content="PDF, Word to PDF, Images to PDF, Merge PDF, Split PDF, Rotate PDF, Add Page Numbers, Compress PDF, PDF Editor, Free PDF Tools, Online PDF Converter, Love PDF, Client-side PDF, Secure PDF Tools">
+  <link rel="canonical" href="https://your-lovepdf-domain.com/" /> 
+  <title>LovPdf - Free Online PDF Tools for All Your Document Needs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.7.0/mammoth.browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    #html-renderer {
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+      width: 800px; /* A4-like width for rendering */
+    }
+    /* Custom scrollbar for a cleaner look */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ef4444; /* red-500 */
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #dc2626; /* red-600 */
+    }
+    /* Basic prose styling for static pages if Tailwind Typography plugin isn't active via CDN */
+    .prose h2 { margin-bottom: 0.75em; font-size: 1.875rem; font-weight: 600; }
+    .prose h3 { margin-top: 1.5em; margin-bottom: 0.5em; font-size: 1.5rem; font-weight: 600; }
+    .prose p { margin-bottom: 1em; line-height: 1.6; }
+    .prose ul { margin-left: 1.5em; list-style-type: disc; margin-bottom: 1em; }
+    .prose li { margin-bottom: 0.25em; }
+    .prose a { color: #ef4444; text-decoration: underline; }
+    .prose strong { font-weight: 600; }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "pdf-lib": "https://esm.sh/pdf-lib@^1.17.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gradient-to-br from-red-50 to-pink-100">
+  <div id="root"></div>
+  <div id="html-renderer"></div> <!-- For mammoth.js HTML output -->
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
